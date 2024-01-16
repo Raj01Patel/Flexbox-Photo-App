@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #0a0a23;
+    border-bottom: 4px solid #fdb347;
+    text-align: center;
+    color: white;
+}
+
+h1{
+    padding: 32px;;
+}
+
+.photo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 16px;
+    margin: auto;
+    max-width: 1400px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.photo img{
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
